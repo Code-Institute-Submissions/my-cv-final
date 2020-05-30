@@ -36,7 +36,7 @@ Both Profile Info and Education + Experience Section fall under the ABOUT page o
 
 5. Fixed Navbar: As this is a one-page portfolio, I have decided to add a fixed scroll bar to provide the user better navigation through different sections of the page. 
 
-6. Screen Reader features such as the "alt" class for describing images and, the "aria" class for describing icons. Plus, I prioritised the use of semantic elements to guarantee a more readible HTML structure.
+6. Screen Reader features such as the "alt" class for describing images and, the "aria-hidden" class for increasing icon accessibility. Plus, I prioritised the use of semantic elements to guarantee a more readible HTML structure.
 
 7. Media queries at major breakpoints, - 700px, 600px, 425px and 320px. In order to ensure that the website is user friendly on all screen sizes. I have also included a bigger hero image which is only loaded when the 2000px breakpoint is passed.
 
