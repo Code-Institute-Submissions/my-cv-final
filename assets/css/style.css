@@ -73,13 +73,13 @@ body{
     .social-menu{
         float: none;
         margin-bottom: 0px;
-        padding-right: 20px;
+        padding-right: 10px;
         margin-top: 10px;
     }
 
     .menu{
         margin-top: 2px;
-        padding-left: 20px;
+        padding-left: 10px;
         text-align: center;
     }
 
