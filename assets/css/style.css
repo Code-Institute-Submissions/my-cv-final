@@ -218,9 +218,10 @@ body {
   display: inline-block;
 }
 
-.col-two > img {
+.col-two>img {
   display: inline-block;
-
+  vertical-align: top;
+  margin-top: 10px;
 }
 
 /*----------------^^^ profile info section/about section ---------*/
