@@ -1,190 +1,150 @@
-body{
-    font-family: 'DM Mono' , monospace;
-    margin: 0px;
+body {
+  font-family: "DM Mono", monospace;
+  margin: 0px;
 }
 
 /*--------------- navbar below --------------------*/
 
 .navbar {
-    font-size: 18px;
-    width: 100%;
-    height: auto;
-    color: whitesmoke;
-    background-color: #333333;
-    position: fixed;
-    z-index: 10;
+  font-size: 18px;
+  width: 100%;
+  height: auto;
+  color: whitesmoke;
+  background-color: #333333;
+  position: fixed;
+  z-index: 10;
+  scroll-behavior: smooth;
 }
 
-.menu{
-    display: inline-block; /*has a default 40px padding-left*/
+.menu {
+  display: inline-block; /*has a default 40px padding-left*/
 }
 
-.social-menu{
-    float: right;
-    padding-left: 0px;
-    padding-right: 40px; /*matches the default 40px padding-left of .menu*/
+.social-menu {
+  float: right;
+  padding-left: 0px;
+  padding-right: 40px; /*matches the default 40px padding-left of .menu*/
 }
 
-.menu>li {
-    list-style-type: none;
-    display: inline-block;
-    letter-spacing: 2px;
-    padding-right: 20px;
-    
+.menu > li {
+  list-style-type: none;
+  display: inline-block;
+  letter-spacing: 2px;
+  padding-right: 20px;
+  scroll-behavior: smooth;
 }
 
-.social-menu>li{
-    list-style: none;
-    display: inline-block;
-    font-size: 22px;
-    padding-left: 20px;
+.social-menu > li {
+  list-style: none;
+  display: inline-block;
+  font-size: 22px;
+  padding-left: 20px;
 }
 
-.menu-link>a:link{
-    text-decoration: none;
-    color: whitesmoke;
+.menu-link > a:link {
+  text-decoration: none;
+  color: whitesmoke;
 }
 
-.menu-link>a:visited{
-    color:inherit;
+.menu-link > a:visited {
+  color: inherit;
 }
 
-.menu-link>a:hover {
-    color: darkgrey;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
+.menu-link > a:hover {
+  color: darkgrey;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
-
 
 /*--------------- ^^^ navbar above ^^^ --------------------*/
 
-
 /*--------media queries for screen size <600px -----*/
 
-@media only screen and (max-width:600px){
-    nav.navbar{
-        text-align: center;
-        padding: 18px 0px;
-        vertical-align: bottom;
-    }
+@media only screen and (max-width: 600px) {
+  nav.navbar {
+    text-align: center;
+    padding: 18px 0px;
+    vertical-align: bottom;
+  }
 
-    .social-menu{
-        float: none;
-        margin-bottom: 0px;
-        padding-right: 20px;
-        margin-top: 10px;
-    }
+  .social-menu {
+    float: none;
+    margin-bottom: 0px;
+    padding-right: 20px;
+    margin-top: 10px;
+  }
 
-    .menu{
-        margin-top: 2px;
-        padding-left: 20px;
-        text-align: center;
-    }
+  .menu {
+    margin-top: 2px;
+    padding-left: 20px;
+    text-align: center;
+  }
 
-    .main-icons{
-        font-size: 18px;
-    }
+  .main-icons {
+    font-size: 18px;
+  }
 }
 
 /*--------media queries for screen size < 575px and > 425px-----*/
 
-@media only screen and (max-width:575px){
-    .main-icons>h2{
-        font-size: 28px;
-        letter-spacing: 2px;
-    }
+@media only screen and (max-width: 575px) {
+  .main-icons > h2 {
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
 
-    .main-icons>p{
-        font-size: 24px;
-        letter-spacing: 2px;
-    }
+  .main-icons > p {
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
 }
 
 /*--------media queries for screen size < 425px -----*/
 
-@media only screen and (max-width:425px){
-    .main-icons>h2{
-        font-size: 24px;
-        letter-spacing: 2px;
-    }
+@media only screen and (max-width: 425px) {
+  .main-icons > h2 {
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
 
-    .main-icons>p{
-        font-size: 20px;
-        letter-spacing: 2px;
-    }
-
+  .main-icons > p {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
 }
 
 /*--------media queries for screen size < 370px -----*/
 
-@media only screen and (max-width:370px){
-    .menu{
-        padding: 0px 20px;
-        letter-spacing: 2px;
-    }
+@media only screen and (max-width: 370px) {
+  .menu {
+    padding: 0px 20px;
+    letter-spacing: 2px;
+  }
 
-    .menu>li{
-        padding-right: 0px;
-    }
+  .menu > li {
+    padding-right: 0px;
+  }
 }
-
 
 /*--------media queries for screen size < 320px -----*/
 
-@media only screen and (max-width:350px){
-    .main-icons>p{
-        font-size: 20px;
-        letter-spacing: 0px;
-    }
+@media only screen and (max-width: 350px) {
+  .main-icons > p {
+    font-size: 20px;
+    letter-spacing: 0px;
+  }
 }
 
 /*--------------- main section below --------------------*/
 
 .home-section {
-    background-image: url("../images/hello1.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 80vh;
-    text-align: center;
-}
-
-.main-icons{
-    font-size: 22px;
-    color: whitesmoke;
-    position: relative;
-    margin: 0px;
-    padding: 20px;
-    top: 25vh;
-    letter-spacing: 10px;
-}
-
-
-.f-a-icons{
-    margin: 20px 0px;
-}
-
-/*----------------- ^^^^^ main section above ^^^^^ -----------*/
-
-@media only screen and (min-width:2000px){
-    .home-section{
-        background-image: url("../images/bighello1.jpg");
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-}
-
-/*---------------- profile info section/about section ---------*/
-.row-one{
-    background-color: #333333;
-    color: whitesmoke;
-    padding: 10px 40px;
-    max-width: 100%;
-}
-
-.col-one{
-    text-align: center;
+  background-image: url("../images/hello1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  text-align: center;
 }
 
 .col-one>h2{
@@ -197,275 +157,310 @@ body{
     text-align: left;
 }
 
-.col-two{
-    width: 100%;
-    display: inline-block;
-    text-align: center;
-    margin-bottom: 16px;
+.main-icons {
+  font-size: 22px;
+  color: whitesmoke;
+  position: relative;
+  margin: 0px;
+  padding: 20px;
+  top: 25vh;
+  letter-spacing: 10px;
 }
 
-.col-two>p{
-    margin: 0px;
-    line-height: 2.5em;
-    display: inline-block;
-    width: 60%;
-    text-align: justify;
-    margin-left: 5%;
-}
-.hero-img{
-    width: 220px;
-    height: 220px;
-    border-radius: 110px;
-    object-fit: cover;
-    object-position: center;
-    display: inline-block;
+.f-a-icons {
+  margin: 20px 0px;
 }
 
-.col-two>div{
-    display: inline-block;
-    vertical-align: top; 
+/*----------------- ^^^^^ main section above ^^^^^ -----------*/
+
+@media only screen and (min-width: 2000px) {
+  .home-section {
+    background-image: url("../images/bighello1.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+}
+
+/*---------------- profile info section/about section ---------*/
+.row-one {
+  background-color: #333333;
+  color: whitesmoke;
+  padding: 10px 40px;
+  max-width: 100%;
+}
+
+.col-one {
+  text-align: center;
+}
+
+.col-two {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.col-two > p {
+  margin: 0px;
+  line-height: 2.5em;
+  display: inline-block;
+  width: 60%;
+  text-align: justify;
+  margin-left: 5%;
+}
+
+.hero-img {
+  width: 220px;
+  height: 220px;
+  border-radius: 110px;
+  object-fit: cover;
+  object-position: center;
+  display: inline-block;
+}
+
+.col-two > img {
+  display: inline-block;
+
 }
 
 /*----------------^^^ profile info section/about section ---------*/
 
 /*-------media queries for main-section screens < 700px ------*/
 
-@media only screen and (max-width:700px){
-    .col-one>h2{
-        text-align: center;
-    }
+@media only screen and (max-width: 700px) {
+  .col-one > h2 {
+    text-align: center;
+  }
 
-    .col-two>div{
-        margin-bottom: 20px;
-    }
+  .col-two > div {
+    margin-bottom: 20px;
+  }
 
-    .col-two>p{
-        margin-left: 0px;
-        width: 100%;
-    }
+  .col-two > p {
+    margin-left: 0px;
+    width: 100%;
+  }
 }
 
 /*------- media queries for main-section screens < 425px ------*/
 
-@media only screen and (max-width:425px){
-    .col-one>h2{
-        text-align: center;
-    }
+@media only screen and (max-width: 425px) {
+  .col-one > h2 {
+    text-align: center;
+  }
 
-    .col-two>div{
-        margin-bottom: 20px;
-    }
+  .col-two > div {
+    margin-bottom: 20px;
+  }
 
-    .col-two>p{
-        margin-left: 0px;
-        width: 100%;
-    }
+  .col-two > p {
+    margin-left: 0px;
+    width: 100%;
+  }
 }
 
 /*-----------------------------------------*/
 
 /*-------- education and experience / cont. about section ---------*/
-.row-two{
-    background-color: whitesmoke;
-    color: #333333;
-    padding: 10px 40px;
-    max-width: 100%;
+.row-two {
+  background-color: whitesmoke;
+  color: #333333;
+  padding: 10px 40px;
+  max-width: 100%;
 }
 
-ul>li{
-    list-style-type: none;
+ul > li {
+  list-style-type: none;
 }
 
-.main-list-education{
-    text-align: justify;
-    line-height: 2em;
+.main-list-education {
+  text-align: justify;
+  line-height: 2em;
 }
-.main-list-education h3{
-    font-size: 20px;
-}
-
-.second-list-education{
-    font-size: 16px;
+.main-list-education h3 {
+  font-size: 20px;
 }
 
-.underline{
-    padding-bottom: 10px;
+.second-list-education {
+  font-size: 16px;
+}
+
+.underline {
+  padding-bottom: 10px;
 }
 
 /*--------media queries for work section below 425px-------*/
 
-@media only screen and (max-width:425px){
-    .main-list-education{
-        text-align: justify;
-        padding-left: 0px;
-    }
+@media only screen and (max-width: 425px) {
+  .main-list-education {
+    text-align: justify;
+    padding-left: 0px;
+  }
 
-    .second-list-education{
-        padding-left: 0px;
-    }
+  .second-list-education {
+    padding-left: 0px;
+  }
 
-    .col-one>h2{
-        font-size: 22px;
-        width: 100%;
-        text-align: center;
-    }
+  .col-one > h2 {
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+  }
 
-    .underline{
-        padding-bottom: 10px;
-        text-decoration: none;
-    }
+  .underline {
+    padding-bottom: 10px;
+    text-decoration: none;
+  }
 }
 
 /*--------------------work section------------------*/
 
-.col-four{
-    line-height: 2em;
+.col-four {
+  line-height: 2em;
 }
 
-a.white-link:link{
-    color: whitesmoke;
-    text-decoration: none;
-    font-weight: bolder;
+a.white-link:link {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bolder;
 }
 
-a.white-link:visited{
-    color: whitesmoke;
+a.white-link:visited {
+  color: whitesmoke;
 }
 
-a.white-link:hover{
-    color: darkgrey;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
+a.white-link:hover {
+  color: darkgrey;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 
-.col-five{
-    text-align: center;
+.col-five {
+  text-align: center;
 }
 
-.col-five>img{
-    width: 43%;
+.col-five > img {
+  width: 43%;
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width: 768px) {
+  .col-four {
+    text-align: justify;
+  }
 
-    .col-four{
-        text-align: justify;
-    }
+  .col-five > img {
+    width: 100%;
+    display: block;
+  }
 
-    .col-five>img{
-        width: 100%;
-        display: block;
-    }
-
-    .padding-top{
-        padding-top: 15px;
-    }
+  .padding-top {
+    padding-top: 15px;
+  }
 }
 
 /*-------------contact section below ------------------------*/
 
-.no-margin-top{
-    margin-top: 0px;
+.no-margin-top {
+  margin-top: 0px;
 }
-.col-seven{
-    display: inline-block;
-    width: 43%;
-    vertical-align: top;
-    padding-right: 15px;
-}
-
-.col-seven>h3{
-    text-transform: uppercase;
-    text-align: justify;
+.col-seven {
+  display: inline-block;
+  width: 43%;
+  vertical-align: top;
+  padding-right: 15px;
 }
 
-.col-seven>p{
-    line-height: 2em;
-    text-align: justify;
+.col-seven > h3 {
+  text-transform: uppercase;
+  text-align: justify;
 }
 
-.col-eight{
-    width: 43%;
-    display: inline-block;
-    padding-left: 15px;
-    vertical-align: top;
+.col-seven > p {
+  line-height: 2em;
+  text-align: justify;
 }
 
-.form{
-    text-align: justify;
+.col-eight {
+  width: 43%;
+  display: inline-block;
+  padding-left: 15px;
+  vertical-align: top;
 }
 
-.form>input{
-    display: block;
-    width: 100%;
-    background-color: #333333;
-    border-color: #333333;
-    margin-top: 5px;
-    color: whitesmoke;
-    font-family: inherit;
-    border-radius: 5px;
+.form {
+  text-align: justify;
 }
 
-.form>textarea{
-    display: block;
-    width: 100%;
-    background-color: #333333;
-    color: whitesmoke;
-    border-color: #333333;
-    border-width: 2px;
-    border-style: inset;
-    border-radius: 5px;
+.form > input {
+  display: block;
+  width: 100%;
+  background-color: #333333;
+  border-color: #333333;
+  margin-top: 5px;
+  color: whitesmoke;
+  font-family: inherit;
+  border-radius: 5px;
 }
 
-.row-two{
-    text-align: center;
+.form > textarea {
+  display: block;
+  width: 100%;
+  background-color: #333333;
+  color: whitesmoke;
+  border-color: #333333;
+  border-width: 2px;
+  border-style: inset;
+  border-radius: 5px;
 }
 
-button{
-    display: block;
-    margin: 5px 0px;
-    font-family: inherit;
-    font-size: 16px;
-    border-radius: 5px;
-    width: 30%;
+.row-two {
+  text-align: center;
 }
 
-button:hover{
-    background-color: #333333;
-    border-color: #333333;
-    color: whitesmoke;
+button {
+  display: block;
+  margin: 5px 0px;
+  font-family: inherit;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 30%;
+}
+
+button:hover {
+  background-color: #333333;
+  border-color: #333333;
+  color: whitesmoke;
 }
 
 /*-----------media queries contact form below 700px ---------*/
 
-@media only screen and (max-width:700px){
-   
+@media only screen and (max-width: 700px) {
+  .col-seven,
+  .col-eight {
+    display: block;
+    width: 100%;
+  }
 
-    .col-seven , .col-eight{
-        display: block;
-        width: 100%;
-    }
+  .col-seven {
+    padding-right: 0px;
+    text-align: justify;
+  }
 
-    .col-seven{
-        padding-right: 0px;
-        text-align: justify;
-    }
-
-    .col-eight{
-        padding-left: 0px;
-    }
+  .col-eight {
+    padding-left: 0px;
+  }
 }
 
-footer{
-    background-color: #333333;
-    color: whitesmoke;
-    height: 5vh;
-    padding: 10px;
+footer {
+  background-color: #333333;
+  color: whitesmoke;
+  height: 5vh;
+  padding: 10px;
 }
 
-footer>p{
-    margin: 0px;
-    font-size: 10px;
+footer > p {
+  margin: 0px;
+  font-size: 10px;
 }
