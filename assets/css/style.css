@@ -278,6 +278,7 @@ ul > li {
   text-align: justify;
   line-height: 2em;
 }
+
 .main-list-education h3 {
   font-size: 20px;
 }
@@ -339,12 +340,20 @@ a.white-link:hover {
 }
 
 .col-five {
-  text-align: center;
+  text-align: justify;
 }
 
 .col-five > img {
   width: 43%;
 }
+
+.col-five > p {
+    margin: 5px 0px;
+}
+ 
+ .col-five > h3{
+     margin: 10px 0px;
+ }
 
 @media only screen and (max-width: 768px) {
   .col-four {
