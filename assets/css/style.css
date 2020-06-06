@@ -341,6 +341,7 @@ a.white-link:hover {
 
 .col-five {
   text-align: justify;
+  line-height: 2em;
 }
 
 .col-five > img {
