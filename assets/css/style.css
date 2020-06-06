@@ -263,6 +263,8 @@ body {
 /*-----------------------------------------*/
 
 /*-------- education and experience / cont. about section ---------*/
+
+
 .row-two {
   background-color: whitesmoke;
   color: #333333;
@@ -317,6 +319,10 @@ ul > li {
 
 /*--------------------work section------------------*/
 
+.work-section > .row-one{
+    text-align: center;
+}
+
 .col-four {
   line-height: 2em;
 }
@@ -347,6 +353,8 @@ a.white-link:hover {
   border: 1px solid white;
   border-radius: 5px;
   padding: 10px;
+  vertical-align: top;
+  margin-bottom: 5px;
 }
 
 .col-five > p {
@@ -355,7 +363,8 @@ a.white-link:hover {
  
  .col-five > h3{
     margin: 5px 0px;
-    
+    letter-spacing: 2px;
+
  }
 
 @media only screen and (max-width: 768px) {
