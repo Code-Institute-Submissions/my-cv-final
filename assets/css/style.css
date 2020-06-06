@@ -342,10 +342,11 @@ a.white-link:hover {
 .col-five {
   text-align: justify;
   line-height: 2em;
-}
-
-.col-five > img {
-  width: 43%;
+  display: inline-block;
+  width: 45%;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .col-five > p {
@@ -353,7 +354,8 @@ a.white-link:hover {
 }
  
  .col-five > h3{
-     margin: 10px 0px;
+    margin: 5px 0px;
+    
  }
 
 @media only screen and (max-width: 768px) {
