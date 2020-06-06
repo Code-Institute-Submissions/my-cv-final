@@ -62,7 +62,7 @@ body {
 
 /*--------media queries for screen size <600px -----*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 685px) {
   nav.navbar {
     text-align: center;
     padding: 18px 0px;
@@ -113,6 +113,8 @@ body {
     font-size: 20px;
     letter-spacing: 2px;
   }
+
+
 }
 
 /*--------media queries for screen size < 370px -----*/
@@ -366,7 +368,8 @@ a.white-link:hover {
  .col-five > h3{
     margin: 5px 0px;
     letter-spacing: 2px;
-
+    color: #FFC107;
+    font-size: 20px;
  }
 
 @media only screen and (max-width: 768px) {
@@ -398,8 +401,9 @@ a.white-link:hover {
 
   .col-five{
     display: block;
-    width: 100%;
+    width: 95%;
     height: 100px;
+    padding: 0% 2.5%;
   }
 
   .padding-top {
