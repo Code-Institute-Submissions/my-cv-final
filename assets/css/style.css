@@ -85,6 +85,7 @@ body {
   .main-icons {
     font-size: 18px;
   }
+
 }
 
 /*--------media queries for screen size < 575px and > 425px-----*/
@@ -114,7 +115,9 @@ body {
     letter-spacing: 2px;
   }
 
-
+  .menu>li{
+      margin-top: 5px;
+  }
 }
 
 /*--------media queries for screen size < 370px -----*/
@@ -367,8 +370,8 @@ a.white-link:hover {
  
  .col-five > h3{
     margin: 5px 0px;
-    letter-spacing: 2px;
-    color: #FFC107;
+    letter-spacing: 3px;
+    text-transform: uppercase;
     font-size: 20px;
  }
 
@@ -477,12 +480,15 @@ button {
   font-size: 16px;
   border-radius: 5px;
   width: 30%;
+  background-color: #333333;
+  color:whitesmoke;
+  border-color: #333333;
 }
 
 button:hover {
-  background-color: #333333;
-  border-color: #333333;
-  color: whitesmoke;
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+  color: #333333;
 }
 
 /*-----------media queries contact form below 700px ---------*/
@@ -514,4 +520,5 @@ footer {
 footer > p {
   margin: 0px;
   font-size: 10px;
+  text-align: center;
 }
