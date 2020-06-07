@@ -1,11 +1,12 @@
 # My Web Developer Portfolio - Milestone Project #1
 
 ## Overview
-
+___
 
 For my first project with CodeInstitute, I have created my own online portfolio as a Full Stack Web Developer. It encloses key information about my recent projects, education and experience plus, ways to get in touch for further details. 
 
 ## UX
+___
 
 A responsive and clean portfolio is the easiest way to portray your abilities to potential employers. Plus, it provides an insight of which skills you could readily bring to companies and collaborations. 
 
@@ -41,7 +42,9 @@ Also, these two colours in the background blend well with the colourful hero ima
 
 I have used Wireframe.cc to display my first ideas on the basic elements of the page. The basic set up has remained the same, in the work section I decided not to include snapshots as they would take too much space. 
 Some of the titles have changed and, the home and about page have merged to become one. You can access my wireframe here: https://wireframe.cc/J59sar 
+
 ## Features
+___
 
 ### Included Features
 
@@ -59,12 +62,15 @@ Some of the titles have changed and, the home and about page have merged to beco
 
 7. Media queries at major breakpoints, - 700px, 600px, 425px and 320px. In order to ensure that the website is user friendly on all screen sizes. I have also included a bigger hero image which is only loaded when the 2000px breakpoint is crossed.
 
+8. Download my CV: I have included the option to download a copy of my CV to the user's computer for further information. This can be achieved by clicking on the icon farthest to the right on the website's nav bar.
+
 ### Features Left out
 
 1. Interactive Snapshots on the Projects Section: I would like to have added a pop-up window when the user clicks on the projects in the project section.
 2. Contact Form: The contact form does not have an action address; it is not live yet as it requires the knowledge of other languages. 
 
 ## Technologies Used
+___
 
 1. FontAwesome Icons 
     - https://fontawesome.com/icons?d=gallery
@@ -77,8 +83,9 @@ Some of the titles have changed and, the home and about page have merged to beco
 8. Google Fonts
 
 ## Testing
+___
 
-**Breakpoints**
+### Breakpoints
 
 As I have mentioned above, I have included media queries at major breakpoints to 
 make sure the website meets the standards of a Mobile First approach. 
@@ -97,7 +104,7 @@ Testing for breakpoints:
 5. Repeat steps 3 and 4 at each major breakpoint.
 6. If possible, launch the live website on your mobile phone.  
 
-**External Links, Download CV and Navbar**
+### External Links, Download CV and Navbar
 
 - Click on links to check if they direct you to the right website and/or section of the page.
 - Check Download CV icon on the top right section of the navbar downloads a pdf file of my CV to the computer. 
@@ -113,7 +120,7 @@ Testing for links:
 7. A pdf file of my CV should download to the computer.
 8. Repeat all steps on a mobile and tablet.
 
-**Contact Form**
+### Contact Form
 
 - All fields are required to be completed by the user before they submit the form.
 
@@ -126,7 +133,7 @@ Testing for contact form:
 5. Repeat the steps above on a mobile and a tablet.
 
 
-**W3C Validator**
+### W3C Validator
 
 - I used this tool to test the website's HTML and CSS structure and readibility. 
 
@@ -144,6 +151,7 @@ Testing CSS Validator:
 
 
 ## Deployment 
+___
 
 **Deploy in GitHub**
 
@@ -157,6 +165,7 @@ Testing CSS Validator:
 
 
 ## Credits
+___
 
 ### Media
 
