@@ -6,7 +6,7 @@ For my first project with CodeInstitute, I have created my own online portfolio 
 
 ## UX
 
-A responsive and clean portfolio is the easiest way to portray your abilities to potential employers. Plus, it provides an insight of what you could bring to companies and collaborations. 
+A responsive and clean portfolio is the easiest way to portray your abilities to potential employers. Plus, it provides an insight of which skills you could readily bring to companies and collaborations. 
 
 The three main target audiences that this website aims at are:
 
@@ -28,7 +28,7 @@ Some of the titles have changed and, the home and about page have merged to beco
 
 ### Included Features
 
-1. Home Section: Provides a quick insight of who I am and what the user can find in my portfolio. 
+1. Home Section: A clear welcome page displaying my full name and my job title to portray the main idea of this website to the user as soon as they launch the website. As the user scrolls down, a quick description of who I am and what the user can find in my portfolio is provided. 
 
 2. Education Section: I have included this section just next to the projects section in order to provide a clear flow of information to the user.
 
@@ -58,7 +58,7 @@ Some of the titles have changed and, the home and about page have merged to beco
 
 ## Testing
 
-1. Breakpoints
+**Breakpoints**
 
 As I have mentioned above, I have included media queries at major breakpoints to 
 make sure the website meets the standards of a Mobile First approach. 
@@ -68,14 +68,54 @@ And, for testing the functionality and appearence of my portfolio at different s
 - On screens < 700px, the website's appearence flows more vertically, with most elements being displayed in block. 
 This approach takes into account the narrower viewport of mobile phones. 
 
-2. External Links and Navbar
+Testing for breakpoints:
 
-    - Click on links to check if they direct you to the right website and/or section of the page.
+1. Preview website on the browser
+2. Right click --> Inspect (Open GoogleDev Tools)
+3. Select the smallest breakpoint, 320px;
+4. Scroll up and down, check for overflow, text-align and element's position. 
+5. Repeat steps 3 and 4 at each major breakpoint.
+6. If possible, launch the live website on your mobile phone.  
 
-3. W3C HTML Validator 
+**External Links, Download CV and Navbar**
 
-    - I used this tool to test the website's HTML structure and readibility. 
+- Click on links to check if they direct you to the right website and/or section of the page.
+- Check Download CV icon on the top right section of the navbar downloads a pdf file of my CV to the computer. 
 
+Testing for links:
+
+1. Preview website on the browser;
+2. Start with the top most element of the page;
+3. Click each link on the navbar and check if they direct you to the right place on the website;
+4. Click each social link and check if they direct you to the right website on a new tab;
+5. Repeat steps 3 and 4 on every other link on the page;
+6. Click on the top right "Download" icon in the nav bar;
+7. A pdf file of my CV should download to the computer.
+8. Repeat all steps on a mobile and tablet.
+
+
+**Contact Form**
+
+- All fields are required to be completed by the user before they submit the form.
+
+Testing for contact form:
+
+1. Scroll down to the bottom of the page or click 'Contact' on the navbar;
+2. Fill every field but, one on the contact form;
+3. Click 'Submit'
+4. The message 'Please fill in this field' should come up.
+5. Repeat the steps above on a mobile and a tablet.
+
+
+**W3C HTML Validator**
+
+- I used this tool to test the website's HTML structure and readibility. 
+
+Testing HTML Validator:
+
+1. Go on to https://validator.w3.org/#validate_by_upload;
+2. Copy and paste the index.html file on this repository;
+3. Click 'Check'.
 
 ## Credits
 
