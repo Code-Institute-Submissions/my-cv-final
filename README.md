@@ -2,6 +2,7 @@
 
 ## Overview
 
+
 For my first project with CodeInstitute, I have created my own online portfolio as a Full Stack Web Developer. It encloses key information about my recent projects, education and experience plus, ways to get in touch for further details. 
 
 ## UX
@@ -28,11 +29,11 @@ Some of the titles have changed and, the home and about page have merged to beco
 
 ### Included Features
 
-1. Home Section: A clear welcome page displaying my full name and my job title to portray the main idea of this website to the user as soon as they launch the website. As the user scrolls down, a quick description of who I am and what the user can find in my portfolio is provided. 
+1. Home Section: A clear welcome page displaying my full name and my job title to portray the main idea of this website to the user, as soon as they launch the website. As the user scrolls down, a quick description of who I am and what the user can find in my portfolio is provided. 
 
 2. Education Section: I have included this section just next to the projects section in order to provide a clear flow of information to the user.
 
-3. Project Section: This section contains descriptive information about some of my projects, visual representation of what technologies I used. For more details the user can follow the link to my GitHub page and/or launch the live website. 
+3. Project Section: This section contains descriptive information about some of my projects, visual representation of what technologies I used. For more details, the user can follow the link to my GitHub page and/or launch the live website. 
 
 4. Contact Section: A way to contact me for further details. 
 
@@ -40,12 +41,12 @@ Some of the titles have changed and, the home and about page have merged to beco
 
 6. Screen Reader features such as the "alt" class for describing images and, the "aria-hidden" class for increasing icon accessibility. Plus, I prioritised the use of semantic elements to guarantee a more readible HTML structure.
 
-7. Media queries at major breakpoints, - 700px, 600px, 425px and 320px. In order to ensure that the website is user friendly on all screen sizes. I have also included a bigger hero image which is only loaded when the 2000px breakpoint is passed.
+7. Media queries at major breakpoints, - 700px, 600px, 425px and 320px. In order to ensure that the website is user friendly on all screen sizes. I have also included a bigger hero image which is only loaded when the 2000px breakpoint is crossed.
 
 ### Features Left out
 
 1. Interactive Snapshots on the Projects Section: I would like to have added a pop-up window when the user clicks on the projects in the project section.
-2. Contact Form: The contact form does not have an action address, as I do not have the skills to set up one yet. 
+2. Contact Form: The contact form does not have an action address; it is not live yet as it requires the knowledge of other languages. 
 
 ## Technologies Used
 
@@ -55,6 +56,8 @@ Some of the titles have changed and, the home and about page have merged to beco
 3. CSS5
 4. GoogleDev Tools
 5. W3C Markup Validator
+6. GitHub and GitPod
+7. Wireframe.cc
 
 ## Testing
 
@@ -93,7 +96,6 @@ Testing for links:
 7. A pdf file of my CV should download to the computer.
 8. Repeat all steps on a mobile and tablet.
 
-
 **Contact Form**
 
 - All fields are required to be completed by the user before they submit the form.
@@ -107,15 +109,35 @@ Testing for contact form:
 5. Repeat the steps above on a mobile and a tablet.
 
 
-**W3C HTML Validator**
+**W3C Validator**
 
-- I used this tool to test the website's HTML structure and readibility. 
+- I used this tool to test the website's HTML and CSS structure and readibility. 
 
 Testing HTML Validator:
 
 1. Go on to https://validator.w3.org/#validate_by_upload;
 2. Copy and paste the index.html file on this repository;
 3. Click 'Check'.
+
+Testing CSS Validator:
+
+1. Go on to https://jigsaw.w3.org/css-validator/#validate_by_input;
+2. Copy and paste the style.css file on this repository;
+3. Click 'Check'.
+
+
+## Deployment 
+
+**Deploy in GitHub**
+
+1. Follow the link to access the GitHub repository for this project - https://github.com/inesnago/my-cv-final
+2. Click 'Settings' on the main bar;
+3. Scroll down until the GitHub Pages section;
+4. Make sure 'master branch' is selected as the source;
+5. Click on the link provided for to access the published website.
+
+**Deploy locally**
+
 
 ## Credits
 
@@ -126,6 +148,8 @@ Testing HTML Validator:
 
 - Charlie Chant Photographer
     1. Profile Info Image: Charlie Chant Photographer
+
+All media used in this project can be found by 
 
 ### Acknowledgements
 
