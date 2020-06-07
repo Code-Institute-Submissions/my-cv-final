@@ -21,16 +21,18 @@ The three main target audiences that this website aims at are:
 3. Potential Internships:
     * This user type is similar to the first user type; they are mainly looking to find out more about my education and my skill pool as a Full Stack Developer. 
 
+
+I have used Wireframe.cc to display my first ideas on the basic elements of the page. The basic set up has remained the same, in the work section I decided not to include snapshots as they would take too much space. 
+Some of the titles have changed and, the home and about page have merged to become one. You can access my wireframe here: https://wireframe.cc/J59sar 
 ## Features
 
 ### Included Features
 
-1. Profile Info Section: Provides a quick insight of who I am and what the user can find in my portfolio. 
+1. Home Section: Provides a quick insight of who I am and what the user can find in my portfolio. 
 
-2. Education + Experience Section: I have included a lock/unlock visual representation of which subjects I have covered and which ones are still to be learned. 
-Both Profile Info and Education + Experience Section fall under the ABOUT page on the navbar.
+2. Education Section: I have included this section just next to the projects section in order to provide a clear flow of information to the user.
 
-3. Work Section: This section has medium snapshots of some of my projects and, for more details the user can follow the link to my GitHub page. 
+3. Project Section: This section contains descriptive information about some of my projects, visual representation of what technologies I used. For more details the user can follow the link to my GitHub page and/or launch the live website. 
 
 4. Contact Section: A way to contact me for further details. 
 
@@ -42,7 +44,7 @@ Both Profile Info and Education + Experience Section fall under the ABOUT page o
 
 ### Features Left out
 
-1. Interactive Snapshots on the Work Section: I would like to have added a pop-up window when the user clicks on one of the snapshots in the work section.
+1. Interactive Snapshots on the Projects Section: I would like to have added a pop-up window when the user clicks on the projects in the project section.
 2. Contact Form: The contact form does not have an action address, as I do not have the skills to set up one yet. 
 
 ## Technologies Used
