@@ -22,6 +22,22 @@ The three main target audiences that this website aims at are:
 3. Potential Internships:
     * This user type is similar to the first user type; they are mainly looking to find out more about my education and my skill pool as a Full Stack Developer. 
 
+### Typography
+
+This projects uses one single font: 'DM Mono'. 
+It is easy to read and, it stands out well in different font weights and decorations. Plus, it resembles the fonts used for coding and software environments. 
+
+### Colour Scheme
+
+There are two main colours that decorate the background and the font colour:
+
+- #333333
+- whitesmoke
+
+They are neutral and minimalistic colours so, that the important information to be found and taken out by the user is easy to spot. 
+Also, these two colours in the background blend well with the colourful hero image. 
+
+### Wireframes
 
 I have used Wireframe.cc to display my first ideas on the basic elements of the page. The basic set up has remained the same, in the work section I decided not to include snapshots as they would take too much space. 
 Some of the titles have changed and, the home and about page have merged to become one. You can access my wireframe here: https://wireframe.cc/J59sar 
@@ -58,6 +74,7 @@ Some of the titles have changed and, the home and about page have merged to beco
 5. W3C Markup Validator
 6. GitHub and GitPod
 7. Wireframe.cc
+8. Google Fonts
 
 ## Testing
 
@@ -143,11 +160,11 @@ Testing CSS Validator:
 
 ### Media
 
-- Unsplash (www.unsplash.com)
-    1. Hero Image: Photo by Shahadat Rahman
+- Unsplash - www.unsplash.com
+    1. Hero Image: Photo by Shahadat Rahman (https://unsplash.com/@hishahadat)
 
-- Charlie Chant Photographer
-    1. Profile Info Image: Charlie Chant Photographer
+- Charlie Chant Photographer - http://www.charliechantphotography.co.uk/
+    1. Profile Info Image: Charlie Chant Photographer 
 
 All media used in this project can be found by 
 
