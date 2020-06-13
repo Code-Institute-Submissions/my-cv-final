@@ -175,10 +175,8 @@ ___
 - Charlie Chant Photographer - http://www.charliechantphotography.co.uk/
     1. Profile Info Image: Charlie Chant Photographer 
 
-All media used in this project can be found by 
-
 ### Acknowledgements
 
-Awwwards (www.awwwards.com) - I looked out for ideas and inspirations on the awwwrds website.
+Awwwards (www.awwwards.com) - I looked out for ideas and inspirations on the awwwards website.
 
 
