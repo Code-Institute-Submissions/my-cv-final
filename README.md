@@ -163,6 +163,13 @@ ___
 
 **Deploy locally**
 
+1. Follow the link to access the GitHub repository for this project - https://github.com/inesnago/my-cv-final
+2. Click on the 'Gitpod' green button on the right hand side to open the project in Gitpod;
+3. Once the project is open, click on Terminal > New Terminal;
+4. Type python3 -m "http.server"
+5. A message will pop up on the bottom right corner of the page. Click 'Open Browser';
+6. To run Gitpod, make sure to add the Gitpod Browser Extension to your browser. 
+You can find it here: https://chrome.google.com/webstore/detail/gitpod-online-ide/dodmmooeoklaejobgleioelladacbeki
 
 ## Credits
 ___
