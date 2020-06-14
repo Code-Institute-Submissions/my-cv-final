@@ -60,7 +60,7 @@ body {
 
 /*--------------- ^^^ navbar above ^^^ --------------------*/
 
-/*--------media queries for screen size <600px -----*/
+/*-------- NAVBAR media queries for screen size <600px -----*/
 
 @media only screen and (max-width: 685px) {
   nav.navbar {
@@ -88,7 +88,7 @@ body {
 
 }
 
-/*--------media queries for screen size < 575px and > 425px-----*/
+/*-------- NAVBAR media queries for screen size < 575px and > 425px-----*/
 
 @media only screen and (max-width: 575px) {
   .main-icons > h2 {
@@ -102,7 +102,7 @@ body {
   }
 }
 
-/*--------media queries for screen size < 425px -----*/
+/*-------- NAVBAR media queries for screen size < 425px -----*/
 
 @media only screen and (max-width: 425px) {
   .main-icons > h2 {
@@ -120,7 +120,7 @@ body {
   }
 }
 
-/*--------media queries for screen size < 370px -----*/
+/*-------- NAVBAR media queries for screen size < 370px -----*/
 
 @media only screen and (max-width: 370px) {
   .menu {
@@ -133,7 +133,7 @@ body {
   }
 }
 
-/*--------media queries for screen size < 320px -----*/
+/*-------- NAVBAR media queries for screen size < 320px -----*/
 
 @media only screen and (max-width: 350px) {
   .main-icons > p {
@@ -177,6 +177,8 @@ body {
 }
 
 /*----------------- ^^^^^ main section above ^^^^^ -----------*/
+
+/*----------------- HERO IMAGE media queries -----------*/
 
 @media only screen and (min-width: 2000px) {
   .home-section {
@@ -231,7 +233,7 @@ body {
 
 /*----------------^^^ profile info section/about section ---------*/
 
-/*-------media queries for main-section screens < 700px ------*/
+/*------- ABOUT SECTION media queries for screens < 700px ------*/
 
 @media only screen and (max-width: 700px) {
   .col-one > h2 {
@@ -248,7 +250,7 @@ body {
   }
 }
 
-/*------- media queries for main-section screens < 425px ------*/
+/*------- ABOUT media queries for screens < 425px ------*/
 
 @media only screen and (max-width: 425px) {
   .col-one > h2 {
@@ -267,7 +269,7 @@ body {
 
 /*-----------------------------------------*/
 
-/*-------- education and experience / cont. about section ---------*/
+/*-------- education section below ---------*/
 
 
 .row-two {
@@ -298,7 +300,7 @@ ul > li {
   padding-bottom: 10px;
 }
 
-/*--------media queries for work section below 425px-------*/
+/*-------- EDUCATION media queries for below 425px-------*/
 
 @media only screen and (max-width: 425px) {
   .main-list-education {
@@ -390,6 +392,8 @@ a.live-website-link:hover{
     -o-transition: all 0.3s ease-in-out;
 }
 
+/*------------------ WORK media queries ------------------*/
+
 @media only screen and (max-width: 768px) {
   .col-four {
     text-align: justify;
@@ -429,7 +433,7 @@ a.live-website-link:hover{
   }
 }
 
-/*-------------contact section below ------------------------*/
+/*------------- contact section below ------------------------*/
 
 .no-margin-top {
   margin-top: 0px;
@@ -508,7 +512,7 @@ button:hover {
   color: #333333;
 }
 
-/*-----------media queries contact form below 700px ---------*/
+/*----------- CONTACT media queries below 700px ---------*/
 
 @media only screen and (max-width: 700px) {
   .col-seven,
