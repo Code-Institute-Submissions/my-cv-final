@@ -26,7 +26,7 @@ The three main target audiences that this website aims at are:
 ### Typography
 
 This projects uses one single font: 'DM Mono'. 
-It is easy to read and, it stands out well in different font weights and decorations. Plus, it resembles the fonts used for coding and software environments. 
+It is easy to read and, it stands out well in different font weights and decorations. Plus, it resembles the fonts used in coding and software environments. 
 
 ### Colour Scheme
 
@@ -35,12 +35,12 @@ There are two main colours that decorate the background and the font colour:
 - #333333
 - whitesmoke
 
-They are neutral and minimalistic colours so, that the important information to be found and taken out by the user is easy to spot. 
+They are neutral and minimalistic colours so that, the important information to be found and taken out by the user is easy to spot. 
 Also, these two colours in the background blend well with the colourful hero image. 
 
 ### Wireframes
 
-I have used Wireframe.cc to display my first ideas on the basic elements of the page. The basic set up has remained the same, in the work section I decided not to include snapshots as they would take too much space. 
+I have used Wireframe.cc to draft the basic elements of the portfolio. The set up has remained the same however, in the work section I decided not to include snapshots as they would take too much space. 
 Some of the titles have changed and, the home and about page have merged to become one. You can access my wireframe here: https://wireframe.cc/J59sar 
 
 ## Features
@@ -48,11 +48,11 @@ ___
 
 ### Included Features
 
-1. Home Section: A clear welcome page displaying my full name and my job title to portray the main idea of this website to the user, as soon as they launch the website. As the user scrolls down, a quick description of who I am and what the user can find in my portfolio is provided. 
+1. Home Section: A clear welcome page displaying my full name and my job title to provide key the key purpose of this website to the user. As the user scrolls down, a quick description of who I am and what the user can find in my portfolio is provided. 
 
 2. Education Section: I have included this section just next to the projects section in order to provide a clear flow of information to the user.
 
-3. Project Section: This section contains descriptive information about some of my projects, visual representation of what technologies I used. For more details, the user can follow the link to my GitHub page and/or launch the live website. 
+3. Project Section: This section contains descriptive information about some of my projects and, visual representation of what technologies I used. For more details, the user can follow the link to my GitHub page and/or launch the live website. 
 
 4. Contact Section: A way to contact me for further details. 
 
@@ -88,7 +88,7 @@ ___
 ### Breakpoints
 
 As I have mentioned above, I have included media queries at major breakpoints to 
-make sure the website meets the standards of a Mobile First approach. 
+ensure that the website meets the standards of a Mobile First approach. 
 And, for testing the functionality and appearence of my portfolio at different screen sizes, I used GoogleDev Tools. 
 
 - On screens > 700px, the website's appearence flows more horizontally, with most elements being displayed inline. 
@@ -97,24 +97,24 @@ This approach takes into account the narrower viewport of mobile phones.
 
 Testing for breakpoints:
 
-1. Preview website on the browser
-2. Right click --> Inspect (Open GoogleDev Tools)
+1. Open the Preview website on the browser (check 'Deploy Local' section below);
+2. Right click > Inspect (Open GoogleDev Tools);
 3. Select the smallest breakpoint, 320px;
-4. Scroll up and down, check for overflow, text-align and element's position. 
-5. Repeat steps 3 and 4 at each major breakpoint.
-6. If possible, launch the live website on your mobile phone.  
+4. Scroll up and down, check for overflow, text-align and element's position;
+5. Repeat steps 3 and 4 at each major breakpoint;
+6. If possible, launch the live website on your mobile phone.
 
 ### External Links, Download CV and Navbar
 
 - Click on links to check if they direct you to the right website and/or section of the page.
-- Check Download CV icon on the top right section of the navbar downloads a pdf file of my CV to the computer. 
+- Check if 'Download CV' icon, on the top right section of the navbar downloads a pdf file of my CV to the computer. 
 
 Testing for links:
 
-1. Preview website on the browser;
+1. Preview website on the browser (check 'Deploy Local' section below);
 2. Start with the top most element of the page;
-3. Click each link on the navbar and check if they direct you to the right place on the website;
-4. Click each social link and check if they direct you to the right website on a new tab;
+3. Click on each link on the navbar and, check you are redirected to the right section of the website;
+4. Click on each social link and check if they redirect you to a new website on a new tab;
 5. Repeat steps 3 and 4 on every other link on the page;
 6. Click on the top right "Download" icon in the nav bar;
 7. A pdf file of my CV should download to the computer.
@@ -157,9 +157,9 @@ ___
 
 1. Follow the link to access the GitHub repository for this project - https://github.com/inesnago/my-cv-final
 2. Click 'Settings' on the main bar;
-3. Scroll down until the GitHub Pages section;
+3. Scroll down to the GitHub Pages section;
 4. Make sure 'master branch' is selected as the source;
-5. Click on the link provided for to access the published website.
+5. Click on the link provided to access the published website.
 
 **Deploy locally**
 
@@ -169,7 +169,7 @@ ___
 4. Type python3 -m "http.server"
 5. A message will pop up on the bottom right corner of the page. Click 'Open Browser';
 6. To run Gitpod, make sure to add the Gitpod Browser Extension to your browser. 
-You can find it here: https://chrome.google.com/webstore/detail/gitpod-online-ide/dodmmooeoklaejobgleioelladacbeki
+You can find out more here: https://chrome.google.com/webstore/detail/gitpod-online-ide/dodmmooeoklaejobgleioelladacbeki
 
 ## Credits
 ___
@@ -182,8 +182,5 @@ ___
 - Charlie Chant Photographer - http://www.charliechantphotography.co.uk/
     1. Profile Info Image: Charlie Chant Photographer 
 
-### Acknowledgements
-
-Awwwards (www.awwwards.com) - I looked out for ideas and inspirations on the awwwards website.
 
 
